@@ -1,9 +1,9 @@
-import React, {FC} from 'react';
+import React from 'react';
 import moment from 'moment';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const FeaturedPostCard: FC = ({ post }) => (
+const FeaturedPostCard = ({ post }) => (
   <div className="relative h-72">
     <div className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72" style={{ backgroundImage: `url('${post.featuredImage.url}')` }} />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-72" />

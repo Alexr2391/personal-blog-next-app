@@ -1,7 +1,7 @@
-import React, {FC}  from 'react'
+import React  from 'react'
 import moment from 'moment'
 
-const PostDetail: FC = ({post}) => {
+const PostDetail = ({post}) => {
 
     const getContentFragment = (index, text, obj, type) => {
         let modifiedText = text;

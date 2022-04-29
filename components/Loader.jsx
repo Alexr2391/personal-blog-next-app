@@ -1,6 +1,6 @@
-import React, {FC} from 'react';
+import React from 'react';
 
-const Loader: FC = () => (
+const Loader = () => (
   <div className="text-center">
     <button
       type="button"

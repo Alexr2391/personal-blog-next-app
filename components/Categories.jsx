@@ -1,8 +1,8 @@
-import React, {useState, useEffect, FC} from 'react'
+import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import { getCategories } from '../services'
 
-const Categories : FC = () => {
+const Categories = () => {
 
   const [categories, setCategories] = useState([]);
 

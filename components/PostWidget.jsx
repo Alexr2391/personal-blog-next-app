@@ -1,10 +1,10 @@
-import React, {useState, useEffect, FC} from 'react'
+import React, {useState, useEffect} from 'react'
 import moment from 'moment'
 import Link from 'next/link'
 import { getRecentPosts, getSimilarPosts } from '../services'
 
 
-const PostWidget: FC = ( {categories, slug} ) => {
+const PostWidget = ( {categories, slug} ) => {
   const [relatedPosts, setRelatedPosts] = useState([])
 
   useEffect(() => {

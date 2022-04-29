@@ -1,8 +1,8 @@
-import React, {FC, useState, useEffect, useRef} from 'react'
+import React, { useState, useEffect, useRef} from 'react'
 
 import { submitComment } from '../services'
 
-const CommentsForm: FC = ({ slug }) => {
+const CommentsForm = ({ slug }) => {
   console.log(slug)
   const [error, setError] = useState(false);
   const [localstorage, setLocalStorage] = useState(null);
