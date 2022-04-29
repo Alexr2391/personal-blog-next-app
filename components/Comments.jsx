@@ -11,7 +11,7 @@ const Comments = ( {slug} ) => {
 
     (async() => {
       const data = await getComments(slug);
-      console.log(data)
+
       setComments(data);
     }) ()
 
